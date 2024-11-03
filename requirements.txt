@@ -2,4 +2,3 @@ pandas
 streamlit
 matplotlib
 numpy
-chi2_contingency
