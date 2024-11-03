@@ -51,3 +51,5 @@ plt.title('Boxplot of Age')
 plt.ylabel('Age')
 plt.grid(True)
 plt.show()
+
+st.pyplot(plt.gcf())
