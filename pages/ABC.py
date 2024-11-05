@@ -6,7 +6,7 @@ file_path = 'https://raw.githubusercontent.com/nuruldini/jie43203/refs/heads/mai
 df = pd.read_csv(file_path)
 
 st.write(df)
-
+st.dataframe(df)
 import numpy as np
 np.corrcoef(df.Age, df.Family_size)
 
