@@ -53,3 +53,6 @@ plt.grid(True)
 plt.show()
 
 st.pyplot(plt.gcf())
+
+
+st.button("Regenerate")
